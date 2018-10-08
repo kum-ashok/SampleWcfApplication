@@ -28,6 +28,7 @@ namespace WcfServiceLibrary1
                         + iMinPoolSize.ToString() + ";Max Pool Size=" + iMaxPoolSize.ToString()
                         + ";Connection Timeout=30";
 
+
             return sConnectionString;
 
         }
