@@ -32,6 +32,7 @@ namespace SampleWcfApplication
         private void btnGet_Click(object sender, EventArgs e)
         {
             GetData();
+            MessageBox.Show("Data Populated");
         }
 
         private void Form1_Load(object sender, EventArgs e)
