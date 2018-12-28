@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - dotnet restore
+      - dotnet build
+artifacts:
+  files:
+    - bin/*
+
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>4.6</TargetFramework>
+  </PropertyGroup>
+</Project>
